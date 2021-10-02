@@ -1,0 +1,40 @@
+.winner-container {
+	background: linear-gradient(to right, #fff0f6, #ffdeeb);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	padding: 5rem;
+	border-radius: 2rem;
+	color: red;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h3,
+h2 {
+	color: #d6336c;
+	font-weight: bold;
+	font-size: 2rem;
+}
+.winner-h {
+	transform: scale(2);
+	color: #74b816;
+}
+
+.btn-play {
+	padding: 1rem 5rem;
+	border: 2px solid #d6336c;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: #d6336c;
+
+	color: white;
+}
+
+.btn-play:hover {
+	border: 2px solid #d6336c;
+	background: #e64980;
+	color: #fff;
+}
